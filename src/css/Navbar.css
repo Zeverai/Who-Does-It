@@ -1,0 +1,16 @@
+.nav-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.nav-title {
+}
+
+.nav-button-container {
+}
+
+.nav-button {
+}
+
+.nav-button:hover {
+}
