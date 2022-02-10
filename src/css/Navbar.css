@@ -1,21 +1,22 @@
 .nav-container {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   /* justify-content: space-between; */
    align-items: center;
    background-color: var(--color-1);
    width: 100%;
-   padding: 5px;
 }
 
 .nav-title {
    display: flex;
    justify-content: left;
    color: var(--color-3);
+   padding: 5px;
 }
 
 .nav-button-container {
    display: flex;
+   justify-content: right;
    flex-direction: row;
    justify-content: space-between;
    padding: 0px 15px 0px 15px;
@@ -24,8 +25,12 @@
 .nav-button {
    display: flex;
    flex-direction: row;
+   color: var(--color-3);
    padding: 0px 15px 0px 15px;
+   text-decoration: none;
 }
 
 .nav-button:hover {
+   cursor: pointer;
+   background-color: var(--color-4);
 }
