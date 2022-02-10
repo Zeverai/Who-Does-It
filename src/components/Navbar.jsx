@@ -1,15 +1,14 @@
 // ____________________________________________________________________________| IMPORTS
-import React from "react";
-
+import React, { Fragment } from "react";
 // ____________________________________________________________________________| STYLES
-import "../css/Landing.css";
+import "../css/Navbar.css";
 // ____________________________________________________________________________| COMPONENT
-const Landing = () => {
+const Navbar = () => {
    return (
-      <div className='landing-container'>
-         <h1>Who Does It?</h1>
-      </div>
+      <Fragment>
+         <div className='nav-container'></div>
+      </Fragment>
    );
 };
-// ____________________________________________________________________________| EXPORT
-export default Landing;
+
+export default Navbar;
