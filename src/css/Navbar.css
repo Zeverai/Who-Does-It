@@ -34,7 +34,7 @@
 }
 
 .nav-button:hover {
-   cursor: pointer;
+   cursor: default;
    border-radius: 2px;
    background-color: var(--color-3);
    transition: all 0.2s;
