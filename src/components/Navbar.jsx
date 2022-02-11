@@ -10,7 +10,7 @@ const Navbar = () => {
          <div className='nav-container'>
             <h1 className='nav-title'>Who Does It</h1>
             <div className='nav-button-container'>
-               <Link to='/new' className='nav-button'>
+               <Link to='/newsessionform' className='nav-button'>
                   New Session
                </Link>
                <Link to='/about' className='nav-button'>
