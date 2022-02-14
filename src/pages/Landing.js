@@ -2,7 +2,7 @@
 import React from "react";
 
 // ____________________________________________________________________________| STYLES
-import "../css/Landing.css";
+import "../css/Landing.scss";
 // ____________________________________________________________________________| COMPONENT
 const Landing = () => {
    return (

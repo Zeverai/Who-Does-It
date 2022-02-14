@@ -2,7 +2,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 // ____________________________________________________________________________| STYLES
-import "../css/Navbar.css";
+import "../css/Navbar.scss";
 // ____________________________________________________________________________| COMPONENT
 const Navbar = () => {
    return (

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Navbar from "./components/Navbar";
 // ____________________________________________________________________________| STYLES
-import "./css/Global.css";
+import "./css/Global.scss";
 // ____________________________________________________________________________| COMPONENT
 
 const App = () => {
